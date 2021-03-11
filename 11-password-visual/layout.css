@@ -1,0 +1,36 @@
+body,html {
+  margin:0;
+  padding:0;
+  line-height:2em;
+  font-size:1.2em;
+}
+.main{
+  width:360px;
+  position:reltive;
+  margin:20px auto 0;
+  padding:20px 20px;
+}
+.main input{
+  font-size:1.2em
+}
+.main #pwd{
+  width:220px;margin:0
+}
+.main .pwd-text{
+  width:185px;
+  height:27px;
+  z-index:-10;
+  border:none;
+  position:relative;
+  left:70px;
+  top:-72px;
+}
+.main #eye{
+  width:34px;
+  height:28px;
+  background-size:contain;
+  position:relative;
+  top:-33px;
+  left:251px;
+  z-index:9;
+}
